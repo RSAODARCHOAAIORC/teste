@@ -263,7 +263,7 @@
         if ((hist === "FCT" || hist === "AmbosSeparados" || hist === "AmbosIguais") && document.getElementById('fctEmail').checked) {
           const data = document.getElementById('fctDataEmail').value;
           const uso = document.getElementById('fctUsoEmail').value;
-          if (data && uso) texto += `e por (email) desde ${data}, ${usoTexto[uso]}. `;
+          if (data && uso) texto += `Histórico FCT por (email) desde ${data}, ${usoTexto[uso]}. `;
         }
 
         // SS
@@ -275,7 +275,7 @@
         if ((hist === "SS" || hist === "AmbosSeparados" || hist === "AmbosIguais") && document.getElementById('ssEmail').checked) {
           const data = document.getElementById('ssDataEmail').value;
           const uso = document.getElementById('ssUsoEmail').value;
-          if (data && uso) texto += `e por (email) desde ${data}, ${usoTexto[uso]}. `;
+          if (data && uso) texto += `Histórico SS por (email) desde ${data}, ${usoTexto[uso]}. `;
         }
 
         // Caso datas iguais
